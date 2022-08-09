@@ -93,15 +93,15 @@ a:hover{
 	font-size:13px;
 	font-weight:bold;
 	padding:9px 21px;
-  color: white;
-  background-color:black;
-  border:1px solid #dcdcdc;
+  	color: white;
+  	background-color:black;
+ 	border:1px solid #dcdcdc;
 	border-radius:4px;
 	cursor:pointer;
 }
 
 .register-Button {
-  width: 400px;
+  	width: 400px;
 	background-color:black;
 	border-radius:4px;
 	border:1px solid #dcdcdc;
@@ -325,7 +325,7 @@ li > ul:first-child {
 }
 
 ul > li {
-	list-style: disc;
+	list-style: none;
 }
 
 ul.to-do-list {
@@ -346,10 +346,12 @@ ul.toggle > li {
 }
 
 ul {
+	list-style: none;
 	padding-inline-start: 1.7em;
 }
 
 ul > li {
+	list-style: none;
 	padding-left: 0.1em;
 }
 
